@@ -56,7 +56,7 @@ function mainloop(){
     drawBackGround(1);
     switch(scene){
         case 0: //タイトル画面
-            fText("☆ MasicGirl ☆", 600, 280, 100, "gold")
+            fText("☆ MagicGirl ☆", 600, 280, 100, "gold")
             if(tmr%40 < 20) fText("Click to Start!!", 600, 500, 30, "white");
             if(tmpT){
                 scene = darkenScreen(0, 1);
